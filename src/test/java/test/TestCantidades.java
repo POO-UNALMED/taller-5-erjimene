@@ -23,7 +23,7 @@ public class TestCantidades {
 	static {
 		Zona z1 = new Zona();
 		Zona z2 = new Zona();
-		zoo.agregarZonas(z1);
+		((Zoologico) zoo).agregarZonas(z1);
 		zoo.agregarZonas(z2);
 		z1.agregarAnimales(Mamifero.crearCaballo("test", 11, "M"));
 		z1.agregarAnimales(Mamifero.crearCaballo("test", 11, "M"));
